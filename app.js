@@ -6,6 +6,7 @@ const cookieParser = require('cookie-parser');
 const path = require('path');
 const session = require('express-session');
 const mongoose = require('mongoose');
+const bcrypt = require('bcrypt');
 // import Router
 
 const adminRouter = require('./routes/adminRouter');
